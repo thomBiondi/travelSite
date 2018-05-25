@@ -3,7 +3,7 @@ watch = require('gulp-watch'),
 postcss = require('gulp-postcss'),
 autoprefixer = require('autoprefixer'),
 cssvars = require('postcss-simple-vars'),
-nested = required('postcss-nested');
+nested = require('postcss-nested');
 
 gulp.task('default', function() {
     console.log("Hooray - you created a Gulp task.");
